@@ -1,0 +1,117 @@
+I will sleep for 9 sec from thread number: 2 id 9284
+I will sleep for 3 sec from thread number: 4 id 9286
+I will sleep for 9 sec from thread number: 5 id 9287
+I will sleep for 5 sec from thread number: 3 id 9285
+I will sleep for 5 sec from thread number: 6 id 9288
+Sucessuly locked in thread 2 with id 9284
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+I will sleep for 6 sec from thread number: 9 id 9291
+I will sleep for 1 sec from thread number: 1 id 9283
+I will sleep for 8 sec from thread number: 8 id 9290
+I will sleep for 7 sec from thread number: 7 id 9289
+Thread cislo 2 skoncil
+
+
+Sucessuly locked in thread 4 with id 9286
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Sucessuly locked in thread 5 with id 9287
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Thread cislo 4 skoncil
+
+
+Thread cislo 5 skoncil
+
+
+Sucessuly locked in thread 3 with id 9285
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Sucessuly locked in thread 6 with id 9288
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Thread cislo 3 skoncil
+
+
+Thread cislo 6 skoncil
+
+
+Sucessuly locked in thread 9 with id 9291
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Thread cislo 9 skoncil
+
+
+Sucessuly locked in thread 1 with id 9283
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Thread cislo 1 skoncil
+
+
+Sucessuly locked in thread 8 with id 9290
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Sucessuly locked in thread 7 with id 9289
+pub articles vraci: 
+ --- 
+ Title: Spolecentstvo prstenu
+ Author:J.R.R Tolkiem
+ Description:Pokracovani hobita
+ Content:Fantasy
+ --- 
+
+Thread cislo 8 skoncil
+
+
+Thread cislo 7 skoncil
+
+

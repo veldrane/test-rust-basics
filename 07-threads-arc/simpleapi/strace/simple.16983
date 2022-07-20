@@ -1,0 +1,30 @@
+1657032386.724322 set_robust_list(0x7f9ee2e139e0, 24) = 0
+1657032386.724358 sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+1657032386.724379 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9ee33b9000
+1657032386.724405 mprotect(0x7f9ee33b9000, 4096, PROT_NONE) = 0
+1657032386.724456 sigaltstack({ss_sp=0x7f9ee33ba000, ss_flags=0, ss_size=8192}, NULL) = 0
+1657032386.724493 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9eda811000
+1657032386.724524 munmap(0x7f9eda811000, 25096192) = 0
+1657032386.724588 munmap(0x7f9ee0000000, 42012672) = 0
+1657032386.724636 mprotect(0x7f9edc000000, 135168, PROT_READ|PROT_WRITE) = 0
+1657032386.724705 sched_getaffinity(16983, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+1657032386.724769 getrandom(NULL, 0, GRND_NONBLOCK) = 0
+1657032386.724828 getrandom("\x0c\x75\x1c\x8b\xde\xaf\x37\x50\xed\xaa\x3f\x12\xf9\x4a\x25\xe9\xa2\xc3\xcb\xfe\xa3\xbc\xfc\x35\x3e\xb1\xed\xc3\x13\xcc\x45\x5d", 32, 0) = 32
+1657032386.724928 write(1, "I will sleep for 7 sec from thre"..., 45) = 45
+1657032386.725012 write(1, "Sucessuly locked in thread 2\n", 29) = 29
+1657032386.725094 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657032386.725216 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657032386.725310 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657032386.725393 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657032386.725516 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657032386.725591 write(1, "\n", 1)     = 1
+1657032386.725700 futex(0x564dabe3d0e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657032386.725795 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=7, tv_nsec=0}, 0x7f9ee2e12cb0) = 0
+1657032393.726353 futex(0x564dac380e50, FUTEX_WAKE_PRIVATE, 1) = 1
+1657032393.726511 write(1, "Thread cislo 2 skoncil\n", 23) = 23
+1657032393.726666 futex(0x564dabe3d0e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657032393.726764 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+1657032393.726837 munmap(0x7f9ee33b9000, 12288) = 0
+1657032393.727008 madvise(0x7f9ee2c13000, 2076672, MADV_DONTNEED) = 0
+1657032393.727103 exit(0)               = ?
+1657032393.727236 +++ exited with 0 +++

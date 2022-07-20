@@ -1,0 +1,33 @@
+1657032386.725672 set_robust_list(0x7f9ee220d9e0, 24) = 0
+1657032386.725744 sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+1657032386.725806 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9ee33a1000
+1657032386.725873 mprotect(0x7f9ee33a1000, 4096, PROT_NONE) = 0
+1657032386.725908 sigaltstack({ss_sp=0x7f9ee33a2000, ss_flags=0, ss_size=8192}, NULL) = 0
+1657032386.725947 openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+1657032386.725996 read(3, "0-7\n", 8192) = 4
+1657032386.726027 close(3)              = 0
+1657032386.726051 mmap(0x7f9eb8000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f9eb8000000
+1657032386.726082 mprotect(0x7f9eb8000000, 135168, PROT_READ|PROT_WRITE) = 0
+1657032386.726101 sched_getaffinity(16990, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+1657032386.726130 getrandom("\x61\x2f\xbe\xfc\x36\xcc\xf1\xd6\x9c\x3c\xc8\xf3\xaf\xd8\x5e\x77\xd0\xb4\x82\xd6\x7c\xb4\x34\x11\x5a\xb0\x25\x9a\x0e\xd1\x5e\xae", 32, 0) = 32
+1657032386.726156 futex(0x564dabe3d0e8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1657032386.726180 write(1, "I will sleep for 0 sec from thre"..., 45) = 45
+1657032386.726205 futex(0x564dabe3d0e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657032386.726228 futex(0x564dac380e50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657032410.736226 futex(0x564dabe3d0e8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657032410.737019 write(1, "Sucessuly locked in thread 9\n", 29) = 29
+1657032410.737206 futex(0x564dabe3d0e8, FUTEX_WAKE_PRIVATE, 1) = 0
+1657032410.737297 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657032410.737383 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657032410.737458 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657032410.737559 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657032410.737631 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657032410.737710 write(1, "\n", 1)     = 1
+1657032410.737793 futex(0x564dac380e50, FUTEX_WAKE_PRIVATE, 1) = 1
+1657032410.737894 write(1, "Thread cislo 9 skoncil\n", 23) = 23
+1657032410.737979 futex(0x564dabe3d0e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657032410.738062 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+1657032410.738137 munmap(0x7f9ee33a1000, 12288) = 0
+1657032410.738227 madvise(0x7f9ee200d000, 2076672, MADV_DONTNEED) = 0
+1657032410.738305 exit(0)               = ?
+1657032410.738385 +++ exited with 0 +++

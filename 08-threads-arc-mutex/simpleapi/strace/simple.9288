@@ -1,0 +1,32 @@
+1657200231.730122 set_robust_list(0x7f15d9ffb9e0, 24) = 0
+1657200231.730201 sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+1657200231.730274 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f15dab95000
+1657200231.730355 mprotect(0x7f15dab95000, 4096, PROT_NONE) = 0
+1657200231.730438 sigaltstack({ss_sp=0x7f15dab96000, ss_flags=0, ss_size=8192}, NULL) = 0
+1657200231.730530 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f15b4000000
+1657200231.730590 munmap(0x7f15b8000000, 67108864) = 0
+1657200231.730686 mprotect(0x7f15b4000000, 135168, PROT_READ|PROT_WRITE) = 0
+1657200231.730761 sched_getaffinity(9288, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+1657200231.730836 gettid()              = 9288
+1657200231.730887 getrandom("\x6b\xaa\xed\xfa\x52\x52\x55\xe2\x8c\x68\x18\xce\x0a\xc6\xaf\x9e\xc6\xd6\xe4\xdb\x5b\x3c\x10\x44\xb0\x36\x21\x3e\x0e\x45\x87\x80", 32, 0) = 32
+1657200231.730986 write(1, "I will sleep for 5 sec from thre"..., 53) = 53
+1657200231.731065 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200231.731123 futex(0x56315faa0e50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657200257.792188 write(1, "Sucessuly locked in thread 6 wit"..., 42) = 42
+1657200257.792335 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200257.792415 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657200257.792486 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657200257.792561 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657200257.792629 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657200257.792696 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657200257.792787 write(1, "\n", 1)     = 1
+1657200257.792903 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200257.792976 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=5, tv_nsec=0}, 0x7f15d9ffac90) = 0
+1657200262.793575 futex(0x56315faa0e50, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200262.795068 write(1, "Thread cislo 6 skoncil\n\n\n", 25) = 25
+1657200262.795383 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200262.795790 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+1657200262.795896 munmap(0x7f15dab95000, 12288) = 0
+1657200262.796008 madvise(0x7f15d9dfb000, 2076672, MADV_DONTNEED) = 0
+1657200262.796087 exit(0)               = ?
+1657200262.796180 +++ exited with 0 +++

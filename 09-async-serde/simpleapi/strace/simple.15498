@@ -1,0 +1,57 @@
+1657205104.966281 set_robust_list(0x7f8f255599e0, 24) = 0
+1657205104.966333 sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+1657205104.966371 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8f262f1000
+1657205104.966405 mprotect(0x7f8f262f1000, 4096, PROT_NONE) = 0
+1657205104.966449 sigaltstack({ss_sp=0x7f8f262f2000, ss_flags=0, ss_size=8192}, NULL) = 0
+1657205104.966516 prctl(PR_SET_NAME, "tokio-runtime-w"...) = 0
+1657205104.966569 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f8f00000000
+1657205104.966596 munmap(0x7f8f04000000, 67108864) = 0
+1657205104.966619 mprotect(0x7f8f00000000, 135168, PROT_READ|PROT_WRITE) = 0
+1657205104.966677 sched_getaffinity(15498, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+1657205104.966736 gettid()              = 15498
+1657205104.966773 getrandom(NULL, 0, GRND_NONBLOCK) = 0
+1657205104.966815 getrandom("\x39\xa2\x87\x4e\x27\xc5\xa0\xdc\xa0\xb1\x7d\x44\xae\x1e\x18\x20\x40\x73\x18\x28\x0b\xc3\x77\x80\xfe\xc3\xf4\x2c\xca\x5c\xb0\xd3", 32, 0) = 32
+1657205104.966900 write(1, "I will sleep for 7 sec in task n"..., 45) = 45
+1657205104.966956 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205104.967005 write(1, "Sucessuly locked in task with id"..., 39) = 39
+1657205104.967062 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205104.967124 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205104.967275 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205104.967457 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657205104.967480 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657205104.967502 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657205104.967522 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657205104.967543 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657205104.967563 write(1, "\n", 1)     = 1
+1657205104.967583 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 0
+1657205104.967601 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=7, tv_nsec=0}, 0x7f8f25558740) = 0
+1657205111.968190 futex(0x55e9c27eba40, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205111.968425 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1657205111.968651 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205111.969089 write(1, "Thread cislo 15498 skoncil\n\n\n", 29) = 29
+1657205111.969193 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205111.969279 futex(0x7f8f25f60438, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205111.969358 gettid()              = 15498
+1657205111.969418 write(1, "I will sleep for 9 sec in task n"..., 45) = 45
+1657205111.969512 futex(0x55e9c27eba40, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205139.986114 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1657205139.986274 write(1, "Sucessuly locked in task with id"..., 39) = 39
+1657205139.986456 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 0
+1657205139.986509 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657205139.986587 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657205139.986673 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657205139.986744 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657205139.986806 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657205139.986869 write(1, "\n", 1)     = 1
+1657205139.986935 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=9, tv_nsec=0}, 0x7f8f25558740) = 0
+1657205148.987537 futex(0x55e9c27eba40, FUTEX_WAKE_PRIVATE, 1) = 0
+1657205148.987928 write(1, "Thread cislo 15498 skoncil\n\n\n", 29) = 29
+1657205148.988387 futex(0x7f8f25f60438, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205148.988679 futex(0x7f8f255595f8, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1657205148.989325 futex(0x7f8f255595f8, FUTEX_WAIT_PRIVATE, 1, {tv_sec=9, tv_nsec=999998176}) = 0
+1657205148.990057 futex(0x7f8f25d5d5f8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205148.990205 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+1657205148.990394 munmap(0x7f8f262f1000, 12288) = 0
+1657205148.990562 madvise(0x7f8f25359000, 2076672, MADV_DONTNEED) = 0
+1657205148.990810 exit(0)               = ?
+1657205148.990975 +++ exited with 0 +++

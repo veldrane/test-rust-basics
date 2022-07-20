@@ -1,0 +1,36 @@
+1657200231.729457 set_robust_list(0x7f15da7ff9e0, 24) = 0
+1657200231.729572 sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+1657200231.729643 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f15dab9e000
+1657200231.729743 mprotect(0x7f15dab9e000, 4096, PROT_NONE) = 0
+1657200231.729825 sigaltstack({ss_sp=0x7f15dab9f000, ss_flags=0, ss_size=8192}, NULL) = 0
+1657200231.729887 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f15c4000000
+1657200231.730009 munmap(0x7f15c8000000, 67108864) = 0
+1657200231.730105 mprotect(0x7f15c4000000, 135168, PROT_READ|PROT_WRITE) = 0
+1657200231.730259 sched_getaffinity(9283, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+1657200231.730376 gettid()              = 9283
+1657200231.730467 getrandom("\x46\x80\x69\x8d\xed\x19\x1a\x2e\x75\x01\x59\x3c\x7c\xf3\xc9\xb4\xde\xc1\xce\x69\xb4\x70\x03\x4a\x4b\xba\x0b\x7b\x0a\x80\x01\x83", 32, 0) = 32
+1657200231.730565 futex(0x56315f6370e8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1657200231.730646 futex(0x56315f6370e8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657200231.730997 futex(0x56315f6370e8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657200231.731241 futex(0x56315f6370e8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657200231.731503 write(1, "I will sleep for 1 sec from thre"..., 53) = 53
+1657200231.731535 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200231.731565 futex(0x56315faa0e50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657200268.798424 futex(0x56315f6370e8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657200268.799052 write(1, "Sucessuly locked in thread 1 wit"..., 42) = 42
+1657200268.799148 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 0
+1657200268.799225 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657200268.799309 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657200268.799383 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657200268.799439 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657200268.799515 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657200268.799579 write(1, "\n", 1)     = 1
+1657200268.799642 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=1, tv_nsec=0}, 0x7f15da7fec90) = 0
+1657200269.800055 futex(0x56315faa0e50, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200269.800149 write(1, "Thread cislo 1 skoncil\n\n\n", 25) = 25
+1657200269.800262 futex(0x56315f6370e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657200269.800331 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+1657200269.800404 munmap(0x7f15dab9e000, 12288) = 0
+1657200269.800485 madvise(0x7f15da5ff000, 2076672, MADV_DONTNEED) = 0
+1657200269.800551 exit(0)               = ?
+1657200269.800654 +++ exited with 0 +++

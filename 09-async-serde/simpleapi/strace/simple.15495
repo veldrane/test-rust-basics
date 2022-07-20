@@ -1,0 +1,41 @@
+1657205104.965600 set_robust_list(0x7f8f1ffff9e0, 24) = 0
+1657205104.965649 sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+1657205104.965724 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8f262fa000
+1657205104.965776 mprotect(0x7f8f262fa000, 4096, PROT_NONE) = 0
+1657205104.965843 sigaltstack({ss_sp=0x7f8f262fb000, ss_flags=0, ss_size=8192}, NULL) = 0
+1657205104.965904 prctl(PR_SET_NAME, "tokio-runtime-w"...) = 0
+1657205104.965959 mmap(0x7f8f14000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f8f14000000
+1657205104.966051 mprotect(0x7f8f14000000, 135168, PROT_READ|PROT_WRITE) = 0
+1657205104.966113 sched_getaffinity(15495, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+1657205104.966179 sched_yield()         = 0
+1657205104.966252 futex(0x7f8f1ffff5f8, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1657205104.966419 futex(0x7f8f25b5c5f8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205104.966486 futex(0x7f8f1ffff5f8, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1657205104.966966 write(4, "\1\0\0\0\0\0\0\0", 8) = 8
+1657205104.967047 gettid()              = 15495
+1657205104.967099 getrandom("\x0e\xe4\xe6\xd0\xa7\x8c\x1b\xae\x37\x2e\x5c\x1e\x6c\xb3\xd2\x29\x30\xbf\x81\x94\xef\xbd\x5a\x0d\x8a\x41\x8d\xbd\x7e\x30\x75\x99", 32, 0) = 32
+1657205104.967165 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205104.967326 write(1, "I will sleep for 6 sec in task n"..., 45) = 45
+1657205104.967345 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205104.967370 futex(0x55e9c27eba40, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205123.978528 futex(0x55e9c1554228, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1657205123.979420 write(1, "Sucessuly locked in task with id"..., 39) = 39
+1657205123.979767 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 0
+1657205123.979864 write(1, "pub articles vraci: \n --- \n", 27) = 27
+1657205123.980237 write(1, " Title: Spolecentstvo prstenu\n", 30) = 30
+1657205123.980460 write(1, " Author:J.R.R Tolkiem\n", 22) = 22
+1657205123.980837 write(1, " Description:Pokracovani hobita\n", 32) = 32
+1657205123.981223 write(1, " Content:Fantasy\n --- \n", 23) = 23
+1657205123.981421 write(1, "\n", 1)     = 1
+1657205123.981605 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=6, tv_nsec=0}, 0x7f8f1fffe740) = 0
+1657205129.982297 futex(0x55e9c27eba40, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205129.982631 write(1, "Thread cislo 15495 skoncil\n\n\n", 29) = 29
+1657205129.983019 futex(0x55e9c1554228, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205129.983350 futex(0x7f8f1ffff5f8, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1657205148.988932 futex(0x7f8f1ffff5f8, FUTEX_WAIT_PRIVATE, 1, {tv_sec=9, tv_nsec=999999014}) = 0
+1657205148.989598 futex(0x7f8f25f5e5f8, FUTEX_WAKE_PRIVATE, 1) = 1
+1657205148.989668 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+1657205148.989750 munmap(0x7f8f262fa000, 12288) = 0
+1657205148.989910 madvise(0x7f8f1fdff000, 2076672, MADV_DONTNEED) = 0
+1657205148.990020 exit(0)               = ?
+1657205148.990233 +++ exited with 0 +++
